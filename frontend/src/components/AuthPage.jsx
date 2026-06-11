@@ -40,6 +40,7 @@ export default function AuthPage({ onAuthSuccess, onDemoLogin }) {
   const [loading, setLoading] = useState(false)
   const [googleLoading, setGoogleLoading] = useState(false)
   const [resendCooldown, setResendCooldown] = useState(false)
+  const showDemoMode = !auth || import.meta.env.DEV || import.meta.env.VITE_ENABLE_DEMO_MODE === 'true'
 
   const clearForm = () => {
     setEmail('')
@@ -361,7 +362,7 @@ export default function AuthPage({ onAuthSuccess, onDemoLogin }) {
       </div>
 
       {error && <p className="auth-error-dark mt-3" role="alert">{error}</p>}
-      {!auth && (
+      {showDemoMode && (
         <button
           id="btn-demo-mode"
           className="landing-btn-secondary"

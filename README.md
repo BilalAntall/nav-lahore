@@ -1,152 +1,165 @@
-# navLahore: Unified Lahore Transport Navigator & RAG Chatbot
+# navLahore
 
-[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![Pinecone](https://img.shields.io/badge/Pinecone-273F50?style=flat&logo=pinecone&logoColor=white)](https://www.pinecone.io/)
-[![Google Gemini](https://img.shields.io/badge/Gemini-8E75C2?style=flat&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+navLahore is a unified public transport web app for Lahore, Pakistan. It helps riders explore Orange Line, Metro Bus, and Speedo feeder routes, compare nearby stations, plan transfers, save routes, report service alerts, and ask transport questions through the RAAHI assistant.
 
-navLahore is a modern, unified public transit navigation app for Lahore, Pakistan. It simplifies urban transit by providing routing, schedule tracking, community-driven service alerts, and an AI-powered assistant (Raahi Bot) to make public transit accessible, reliable, and engaging.
+Live app: [lahore-transport-six.vercel.app](https://lahore-transport-six.vercel.app/)
 
-> 🌐 **Live Application**: Access the web app live on Vercel at **[lahore-transport-six.vercel.app](https://lahore-transport-six.vercel.app/)**
+## Features
 
----
+- Unified route planner for Orange Line Metro Train, Lahore Metro Bus, and Speedo feeder routes.
+- Station-aware planning with distances, route suggestions, arrival context, and transfer guidance.
+- RAAHI Bot, a Gemini and Pinecone powered transport assistant for fares, routes, schedules, and policy questions.
+- Community alerts for delays, crowding, closures, and service updates.
+- Firebase Authentication with Google/email login and Firestore-backed rider data.
+- Profile, saved routes, rider stats, XP, and achievement badges.
+- Offline demo mode for local screenshots and review when Firebase is not configured.
 
-## 🚀 Key Features
+## Screenshots
 
-- **🗺️ Unified Transit Planner**: Interactive routing and schedule lookups for Lahore's primary transit networks:
-  - **Orange Line Metro Train (OLMT)**
-  - **Lahore Metro Bus (Green Line)**
-  - **Speedo Feeder Bus Network (Eco-Bus)**
-- **🤖 RAAHI AI Chatbot**: A Retrieval-Augmented Generation (RAG) assistant powered by **Gemini** and **Pinecone**. It provides immediate answers about ticketing, fares, connections, schedules, and transit policies based on official transit manuals.
-- **📢 Crowd-Sourced Community Alerts**: Real-time traffic, platform crowding, and delay warnings reported and upvoted/verified by fellow riders.
-- **🏆 Gamified Rider Rewards**: Earn experience points (XP) and unlock badges (e.g., "Green Commuter", "Station Checker") by checking in at transit hubs and contributing verified status updates.
-- **👤 Profile & Saved Routes**: Sync bookmarks, transit statistics, carbon offset footprint, and personalized routes using Firebase.
+Place project screenshots in `assets/` with these names:
 
----
+![Dashboard preview](assets/dashboard_preview.png)
+![RAAHI Bot preview](assets/chatbot_preview.png)
+![Community alerts preview](assets/alerts_preview.png)
 
-## 📂 Repository Directory Structure
+## Repository Structure
 
-```directory
+```text
 nav-lahore/
-├── README.md                  # Main overview, setup, and monorepo details (This file)
-├── .gitignore                 # Excludes packages, system files, and local .env keys
-├── assets/                    # Directory for hosting screenshot previews in README
+├── README.md
+├── .gitignore
+├── assets/
 │   └── .gitkeep
-├── data-ingestion/            # Python backend for RAG knowledge base setup
-│   ├── .env.example           # Configuration template for Pinecone & Gemini keys
-│   ├── ingest_rag.py          # Script to chunk, embed, and upload transit documents to Pinecone
-│   └── data/                  # Reference JSON and TXT transit data for Orange Line, Metro Bus, and Speedo Bus
-└── frontend/                  # React & Vite client application
-    ├── src/                   # Components, views, custom hooks, and Firebase configs
-    ├── package.json           # Frontend package dependencies
+├── data-ingestion/
+│   ├── .env.example
+│   ├── ingest_rag.py
+│   └── data/
+│       ├── eco_bus.json
+│       ├── eco_bus_info.txt
+│       ├── metro_bus.json
+│       ├── metro_bus_info.txt
+│       ├── orange_line.json
+│       └── orange_line_info.txt
+└── frontend/
+    ├── api/
+    │   └── raahi.js
+    ├── public/
+    ├── src/
+    ├── .env.example
+    ├── package.json
     └── vite.config.js
 ```
 
----
+## Tech Stack
 
-## 🛠️ Tech Stack & Architecture
+- React 19 and Vite
+- Firebase Authentication and Cloud Firestore
+- Vercel serverless functions
+- Google Gemini for RAAHI responses and embeddings
+- Pinecone for transport knowledge retrieval
+- Leaflet and React Leaflet for map-based transit views
+- Tailwind CSS and custom CSS for the interface
 
-```mermaid
-graph TD
-    User([Rider Interface]) -->|Vite / React App| Frontend[Frontend React UI]
-    
-    subgraph Firebase Services
-        Frontend -->|Auth| FirebaseAuth[Firebase Authentication]
-        Frontend -->|Data Storage & Sync| Firestore[Cloud Firestore]
-    end
-    
-    subgraph RAG AI Bot Architecture
-        Frontend -->|User Queries| RaahiBot[RAAHI AI Chatbot]
-        RaahiBot -->|Semantic Query| VectorDB[(Pinecone Index)]
-        VectorDB -->|Relevant Context| GeminiAPI[Google Gemini 2.0]
-        GeminiAPI -->|Natural Language Response| RaahiBot
-    end
-    
-    subgraph Data Ingest Pipeline
-        DataFiles[(Official Transit Files)] -->|Text & JSON| PyScript[Python Ingest Script]
-        PyScript -->|Gemini Embeddings| VectorDB
-    end
+## Local Development
+
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
----
+Open the Vite URL, usually `http://localhost:5173`.
 
-## ⚙️ Local Development & Quick Start
+In local development, the login screen shows `Enter Demo Mode (Offline)`. Use that button to review the app without signing in or changing your Firebase keys.
 
-### 1. Running the Frontend in "Demo Mode" (Offline)
-If you want to view, test, or take screenshots of the dashboard and features locally without configuring a Firebase database:
-We have built an **Offline Demo Mode** directly into the login screen!
+For repeatable local screenshots, you can also open dev-only demo URLs:
 
-1. Navigate to the `frontend/` directory:
-   ```bash
-   cd frontend
-   ```
-2. Install npm dependencies:
-   ```bash
-   npm install
-   ```
-3. Launch the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open the local address in your browser (typically `http://localhost:5173`).
-5. Since Firebase is not configured, the login screen will automatically show a green **"Enter Demo Mode (Offline)"** button. Click it to immediately bypass login and browse the dashboard, chatbot page, alerts, and profile screens!
+```text
+http://localhost:5173/?demo=1&page=dashboard
+http://localhost:5173/?demo=1&page=raahi
+http://localhost:5173/?demo=1&page=alerts
+```
 
----
+## Frontend Environment
 
-### 2. Full Firebase Setup (Optional)
-To set up active database storage and Google/Email auth:
-1. Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
-2. Enable **Authentication** (Google Sign-In and Email/Password provider) and **Cloud Firestore**.
-3. Create a `.env.local` file inside the `frontend/` directory and populate it with your Firebase Web App credentials:
-   ```env
-   VITE_FIREBASE_API_KEY=your_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   VITE_FIREBASE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-   VITE_FIREBASE_APP_ID=your_app_id
-   ```
-4. Start the app locally with `npm run dev` to use live syncing!
+Create `frontend/.env.local` for local Firebase and backend configuration. Do not commit it.
 
----
+```env
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_STORAGE_BUCKET=
+VITE_FIREBASE_MESSAGING_SENDER_ID=
+VITE_FIREBASE_APP_ID=
 
-### 3. Data Ingestion for RAAHI Bot (Pinecone & Gemini)
-To ingest public transport knowledge base documents into Pinecone for semantic search:
-1. Navigate to the `data-ingestion/` directory:
-   ```bash
-   cd data-ingestion
-   ```
-2. Install Python dependencies:
-   ```bash
-   pip install google-genai pinecone-client requests
-   ```
-3. Copy the `.env.example` file to `.env`:
-   ```bash
-   copy .env.example .env
-   ```
-4. Fill in your `PINECONE_API_KEY`, `PINECONE_HOST`, and `GEMINI_API_KEY`.
-5. Run the ingestion pipeline script:
-   ```bash
-   python ingest_rag.py
-   ```
-   *The script chunks the transit schedules and metadata, embeds them using Gemini, and uploads the vectors to Pinecone.*
+FIREBASE_PROJECT_ID=
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PRIVATE_KEY=
 
----
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-2.5-flash
+GEMINI_EMBEDDING_MODEL=gemini-embedding-001
 
-## 📸 Screenshots & Visual Previews
+PINECONE_API_KEY=
+PINECONE_INDEX_HOST=
+PINECONE_NAMESPACE=__default__
+PINECONE_TEXT_FIELD=chunk_text
+```
 
-Run the app in **Demo Mode**, take screenshots of the following pages, and save them in the `assets/` folder to display them here!
+Only variables prefixed with `VITE_` are exposed to the browser. Keep Firebase Admin, Gemini, and Pinecone keys server-side only.
 
-### 1. Unified Dashboard & Route Planner
-![Dashboard Screenshot](assets/dashboard_preview.png)
-*(Run local dev, take a screenshot of the main planner page, and save it as assets/dashboard_preview.png)*
+## RAAHI Data Ingestion
 
-### 2. RAAHI AI Chatbot
-![Chatbot Screenshot](assets/chatbot_preview.png)
-*(Run local dev, take a screenshot of RAAHI Bot page, and save it as assets/chatbot_preview.png)*
+The `data-ingestion/` folder prepares transport text and JSON data for Pinecone.
 
-### 3. Community Transit Alerts
-![Community Alerts Screenshot](assets/alerts_preview.png)
-*(Run local dev, take a screenshot of Community Alerts page, and save it as assets/alerts_preview.png)*
+```bash
+cd data-ingestion
+pip install google-genai pinecone-client requests
+copy .env.example .env
+python ingest_rag.py
+```
+
+Fill `PINECONE_API_KEY`, `PINECONE_HOST`, and `GEMINI_API_KEY` in `data-ingestion/.env` before running the script. Do not commit `.env`.
+
+## Security Notes
+
+- `node_modules/`, `dist/`, `.vercel/`, `.env`, and `.env.local` files are ignored.
+- Commit only `.env.example` templates.
+- Rotate any key immediately if it was ever pasted into code, screenshots, chat, or Git history.
+- Before pushing, run `git status --ignored` and confirm real environment files appear under ignored files.
+
+## Recommended GitHub Repository
+
+Use this repository name:
+
+```text
+nav-lahore
+```
+
+Suggested description:
+
+```text
+Unified Lahore public transport planner with route optimization, Firebase auth, community alerts, and a Gemini/Pinecone RAG assistant.
+```
+
+Suggested topics:
+
+```text
+react vite firebase vercel lahore public-transport transit-planner gemini pinecone rag
+```
+
+## Push To GitHub
+
+Create an empty GitHub repository named `nav-lahore`, then run:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/nav-lahore.git
+git branch -M main
+git push -u origin main
+```
+
+If you use GitHub CLI instead:
+
+```bash
+gh repo create nav-lahore --public --source=. --remote=origin --push
+```

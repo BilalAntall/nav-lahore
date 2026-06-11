@@ -66,12 +66,30 @@ const initialPlannerState = {
   etaSeconds: null,
 }
 
+const devDemoUser = {
+  uid: 'demo-rider-123',
+  email: 'demo@navlahore.pk',
+  displayName: 'Lahore Demo Rider',
+  isAnonymous: false,
+}
+
+const allowedPageIds = new Set(navItems.map((item) => item.id))
+
+function getInitialPage() {
+  const page = new URLSearchParams(window.location.search).get('page')
+  return allowedPageIds.has(page) ? page : 'dashboard'
+}
+
+function shouldStartInDevDemo() {
+  return import.meta.env.DEV && new URLSearchParams(window.location.search).get('demo') === '1'
+}
+
 export default function App() {
-  const [user, setUser] = useState(auth ? undefined : null)
+  const [user, setUser] = useState(shouldStartInDevDemo() ? devDemoUser : auth ? undefined : null)
   const [pendingUser, setPendingUser] = useState(null)
   const [isPreparingDashboard, setIsPreparingDashboard] = useState(false)
   const [loadingLineIndex, setLoadingLineIndex] = useState(0)
-  const [activePage, setActivePage] = useState('dashboard')
+  const [activePage, setActivePage] = useState(getInitialPage)
   const [showBadges, setShowBadges] = useState(false)
   const [plannerState, setPlannerState] = useState(initialPlannerState)
   const { alerts, addAlert, deleteAlert, status: alertsStatus, voteAlert } = useCommunityAlerts(starterAlerts, user)
@@ -88,6 +106,7 @@ export default function App() {
   }, [])
 
   useEffect(() => {
+    if (shouldStartInDevDemo()) return
     if (!auth) return
 
     const prepareDashboard = (nextUser) => {
@@ -160,12 +179,7 @@ export default function App() {
       <AuthPage
         onAuthSuccess={() => {}}
         onDemoLogin={() =>
-          setUser({
-            uid: 'demo-rider-123',
-            email: 'demo@navlahore.pk',
-            displayName: 'Lahore Demo Rider',
-            isAnonymous: false,
-          })
+          setUser(devDemoUser)
         }
       />
     )
