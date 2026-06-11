@@ -1,0 +1,226 @@
+{
+    "line_name": "Lahore Metro Bus (Green Line)",
+    "line_id": "metro_bus_lahore",
+    "color": "#008000",
+    "stations": [
+        {
+            "id": 1,
+            "name": "Gajjumata",
+            "lat": 31.397534,
+            "lng": 74.361687,
+            "type": "Surface",
+            "is_interchange": false,
+            "notes": "Southern Terminal"
+        },
+        {
+            "id": 2,
+            "name": "Dulu Khurd",
+            "lat": 31.405381,
+            "lng": 74.363953,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 3,
+            "name": "Youhanabad",
+            "lat": 31.413725,
+            "lng": 74.364654,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 4,
+            "name": "Nishtar Colony",
+            "lat": 31.423985,
+            "lng": 74.361833,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 5,
+            "name": "Atari Saroba",
+            "lat": 31.433190,
+            "lng": 74.359239,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 6,
+            "name": "Kamahan",
+            "lat": 31.442998,
+            "lng": 74.356499,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 7,
+            "name": "Chungi Amar Sidhu",
+            "lat": 31.455211,
+            "lng": 74.353311,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 8,
+            "name": "Ghazi Chowk",
+            "lat": 31.464673,
+            "lng": 74.348633,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 9,
+            "name": "Qainchi",
+            "lat": 31.472712,
+            "lng": 74.342371,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 10,
+            "name": "Ittefaq Hospital",
+            "lat": 31.482701,
+            "lng": 74.337583,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 11,
+            "name": "Naseerabad",
+            "lat": 31.487823,
+            "lng": 74.336423,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 12,
+            "name": "Model Town",
+            "lat": 31.494793,
+            "lng": 74.334468,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 13,
+            "name": "Kalma Chowk",
+            "lat": 31.503537,
+            "lng": 74.331839,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 14,
+            "name": "Qaddafi Stadium",
+            "lat": 31.511394,
+            "lng": 74.332306,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 15,
+            "name": "Canal / Muslim Town",
+            "lat": 31.520448,
+            "lng": 74.331575,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 16,
+            "name": "Ichra",
+            "lat": 31.530932,
+            "lng": 74.327575,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 17,
+            "name": "Shama",
+            "lat": 31.538562,
+            "lng": 74.322301,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 18,
+            "name": "Qartaba Chowk",
+            "lat": 31.547528,
+            "lng": 74.316823,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 19,
+            "name": "Janazgah",
+            "lat": 31.554070,
+            "lng": 74.312988,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 20,
+            "name": "MAO College",
+            "lat": 31.561593,
+            "lng": 74.306737,
+            "type": "Elevated",
+            "is_interchange": true,
+            "connects_to": "Orange Line (Anarkali)"
+        },
+        {
+            "id": 21,
+            "name": "Civil Secretariat",
+            "lat": 31.567707,
+            "lng": 74.305609,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 22,
+            "name": "Katchery",
+            "lat": 31.572765,
+            "lng": 74.306422,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 23,
+            "name": "Bhaati Chowk",
+            "lat": 31.581561,
+            "lng": 74.308169,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 24,
+            "name": "Azadi Chowk",
+            "lat": 31.590299,
+            "lng": 74.305655,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 25,
+            "name": "Timber Market",
+            "lat": 31.595914,
+            "lng": 74.302195,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 26,
+            "name": "Niazi Chowk",
+            "lat": 31.602568,
+            "lng": 74.296542,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 27,
+            "name": "Shahdara",
+            "lat": 31.615368,
+            "lng": 74.290548,
+            "type": "Surface",
+            "is_interchange": false,
+            "notes": "Northern Terminal"
+        }
+    ]
+}

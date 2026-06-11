@@ -1,0 +1,193 @@
+{
+    "line_name": "Electro Eco-Bus (Route 1)",
+    "line_id": "electro_route_1",
+    "color": "#32CD32",
+    "stations": [
+        {
+            "id": 1,
+            "name": "Railway Station (Haji Camp)",
+            "lat": 31.576104,
+            "lng": 74.334805,
+            "type": "Surface",
+            "is_interchange": true
+        },
+        {
+            "id": 2,
+            "name": "Police Lines",
+            "lat": 31.571420,
+            "lng": 74.336210,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 3,
+            "name": "Shimla Pahari",
+            "lat": 31.564481,
+            "lng": 74.339230,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 4,
+            "name": "Governor House",
+            "lat": 31.558231,
+            "lng": 74.331545,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 5,
+            "name": "Bagh-e-Jinnah",
+            "lat": 31.552912,
+            "lng": 74.330101,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 6,
+            "name": "Lahore Zoo",
+            "lat": 31.555891,
+            "lng": 74.325876,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 7,
+            "name": "Charing Cross",
+            "lat": 31.555102,
+            "lng": 74.321455,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 8,
+            "name": "Ganga Ram Hospital",
+            "lat": 31.556214,
+            "lng": 74.315900,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 9,
+            "name": "Waris Road",
+            "lat": 31.550123,
+            "lng": 74.316220,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 10,
+            "name": "Abid Market",
+            "lat": 31.545890,
+            "lng": 74.317550,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 11,
+            "name": "Mozang",
+            "lat": 31.543210,
+            "lng": 74.318990,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 12,
+            "name": "Ichhra",
+            "lat": 31.530932,
+            "lng": 74.327575,
+            "type": "Surface",
+            "is_interchange": true,
+            "connects_to": "Metro Bus"
+        },
+        {
+            "id": 13,
+            "name": "Punjab College (Canal)",
+            "lat": 31.517890,
+            "lng": 74.332100,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 14,
+            "name": "PU Campus Bridge (Gate 4)",
+            "lat": 31.503212,
+            "lng": 74.307185,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 15,
+            "name": "Hailey College / IBA",
+            "lat": 31.498110,
+            "lng": 74.305220,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 16,
+            "name": "Shah Di Khoi",
+            "lat": 31.491220,
+            "lng": 74.302550,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 17,
+            "name": "Ravi Chowk",
+            "lat": 31.485550,
+            "lng": 74.304880,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 18,
+            "name": "Akbar Chowk",
+            "lat": 31.481905,
+            "lng": 74.310112,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 19,
+            "name": "Township Bazaar",
+            "lat": 31.470220,
+            "lng": 74.308550,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 20,
+            "name": "Honda Mor",
+            "lat": 31.461110,
+            "lng": 74.304220,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 21,
+            "name": "Pindi Stop",
+            "lat": 31.455660,
+            "lng": 74.302110,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 22,
+            "name": "Hamdard Chowk (Depot)",
+            "lat": 31.445220,
+            "lng": 74.301550,
+            "type": "Surface",
+            "is_interchange": false
+        },
+        {
+            "id": 23,
+            "name": "Minhaj University",
+            "lat": 31.441220,
+            "lng": 74.301110,
+            "type": "Surface",
+            "is_interchange": false,
+            "notes": "Final Stop"
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "line_name": "Orange Line Metro Train",
+    "line_id": "olmt_lahore",
+    "color": "#FF8C00",
+    "stations": [
+        {
+            "id": 1,
+            "name": "Ali Town",
+            "lat": 31.465066,
+            "lng": 74.243953,
+            "type": "Elevated",
+            "is_interchange": false,
+            "notes": "Southwestern Terminal"
+        },
+        {
+            "id": 2,
+            "name": "Thokar Niaz Baig",
+            "lat": 31.475803,
+            "lng": 74.242816,
+            "type": "Elevated",
+            "is_interchange": false,
+            "notes": "Near M2 Interchange"
+        },
+        {
+            "id": 3,
+            "name": "Canal View",
+            "lat": 31.482624,
+            "lng": 74.251292,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 4,
+            "name": "Hanjarwal",
+            "lat": 31.491179,
+            "lng": 74.261752,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 5,
+            "name": "Wahdat Road",
+            "lat": 31.494614,
+            "lng": 74.263114,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 6,
+            "name": "Awan Town",
+            "lat": 31.503332,
+            "lng": 74.268108,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 7,
+            "name": "Sabzazar",
+            "lat": 31.510490,
+            "lng": 74.272985,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 8,
+            "name": "Khatam-e-Nabuwat",
+            "lat": 31.517825,
+            "lng": 74.277645,
+            "type": "Elevated",
+            "is_interchange": false,
+            "former_name": "Shahnoor"
+        },
+        {
+            "id": 9,
+            "name": "Salahuddin Road",
+            "lat": 31.524474,
+            "lng": 74.283248,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 10,
+            "name": "Bund Road",
+            "lat": 31.532467,
+            "lng": 74.287545,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 11,
+            "name": "Samanabad",
+            "lat": 31.539935,
+            "lng": 74.293444,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 12,
+            "name": "Gulshan-e-Ravi",
+            "lat": 31.545283,
+            "lng": 74.294975,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 13,
+            "name": "Chauburji",
+            "lat": 31.552300,
+            "lng": 74.302900,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 14,
+            "name": "Anarkali",
+            "lat": 31.567329,
+            "lng": 74.309399,
+            "type": "Underground",
+            "is_interchange": true,
+            "connects_to": "Metro Bus (MAO College)"
+        },
+        {
+            "id": 15,
+            "name": "Central (GPO)",
+            "lat": 31.570839,
+            "lng": 74.315922,
+            "type": "Underground",
+            "is_interchange": false,
+            "notes": "Mall & McLeod Intersection"
+        },
+        {
+            "id": 16,
+            "name": "Lakshmi",
+            "lat": 31.572594,
+            "lng": 74.326909,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 17,
+            "name": "Railway Station",
+            "lat": 31.576104,
+            "lng": 74.334805,
+            "type": "Elevated",
+            "is_interchange": true,
+            "connects_to": "Pakistan Railways / Eco-Bus"
+        },
+        {
+            "id": 18,
+            "name": "Sultanpura",
+            "lat": 31.576543,
+            "lng": 74.352744,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 19,
+            "name": "UET",
+            "lat": 31.577640,
+            "lng": 74.359975,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 20,
+            "name": "Baghbanpura",
+            "lat": 31.579687,
+            "lng": 74.370682,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 21,
+            "name": "Shalamar Garden",
+            "lat": 31.583801,
+            "lng": 74.380058,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 22,
+            "name": "Pakistan Mint",
+            "lat": 31.585415,
+            "lng": 74.389057,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 23,
+            "name": "Mahmood Booti",
+            "lat": 31.586914,
+            "lng": 74.402392,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 24,
+            "name": "Salamatpura",
+            "lat": 31.588067,
+            "lng": 74.412750,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 25,
+            "name": "Islam Park",
+            "lat": 31.588433,
+            "lng": 74.420100,
+            "type": "Elevated",
+            "is_interchange": false
+        },
+        {
+            "id": 26,
+            "name": "Dera Gujran",
+            "lat": 31.589837,
+            "lng": 74.431013,
+            "type": "Elevated",
+            "is_interchange": false,
+            "notes": "Northeastern Terminal"
+        }
+    ]
+}

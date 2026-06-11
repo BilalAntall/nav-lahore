@@ -1,0 +1,203 @@
+KNOWLEDGE BASE DOCUMENT: LAHORE METRO BUS (GREEN LINE)
+Document Type: Transit Infrastructure & Geographic Context
+System: Lahore Metrobus System (LMBS)
+Line Name: Green Line
+Line ID: metro_bus_lahore
+Brand Color: Green (#008000)
+Total Stations: 27
+Geographic Alignment: North-South corridor of Lahore, Pakistan (Shahdara to Gajjumata)
+OVERVIEW
+The Lahore Metro Bus (Green Line) is a 27-kilometer-long Bus Rapid Transit (BRT) system operating in Lahore, Punjab, Pakistan. It primarily traverses Ferozepur Road, Lytton Road, Lower Mall, and Ravi Road, creating a vital north-south transit spine. The system features a mix of surface-level and elevated stations. This document provides extreme detail on every station, its coordinates, infrastructure type, and an exhaustive description of the surrounding neighborhoods, landmarks, economic zones, and cultural sites to aid in spatial and contextual queries.
+STATION PROFILES
+1. Gajjumata Station
+Station ID: 1
+Coordinates: Lat 31.397534, Lng 74.361687
+Type: Surface
+Interchange: False
+Notes: Southern Terminal
+Surrounding Area & Context:
+Gajjumata serves as the primary southern anchor and terminal of the Green Line. Located on the extreme southern end of Ferozepur Road, it acts as the main transit gateway for commuters entering Lahore from neighboring Kasur. The area is heavily industrial, featuring numerous textile mills, pharmaceutical factories, and manufacturing plants. Just south of the station is the Rohi Nala (a major drainage canal) and the Lahore Ring Road (Southern Loop) interchange, making it a critical logistical hub. The station also serves the sprawling peri-urban settlements of Kahna Nau and Suhai Hai Meadows. It marks the transition point where Lahore's dense urban sprawl begins to give way to suburban and agricultural outskirts.
+2. Dulu Khurd Station
+Station ID: 2
+Coordinates: Lat 31.405381, Lng 74.363953
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Located slightly north of the Gajjumata terminal, Dulu Khurd is situated in a transitional, mixed-use zone. The area is characterized by dense, unplanned residential settlements and small-to-medium enterprises. The surroundings feature local brick kilns, hardware markets, and agricultural machinery vendors catering to the rural communities just outside city limits. The neighborhood is highly populated by working-class citizens who rely heavily on the Metro Bus for their daily commute to the central business districts of Lahore. The narrow, winding streets off the main Ferozepur road are packed with local grocers, auto repair shops, and small residential plots.
+3. Youhanabad Station
+Station ID: 3
+Coordinates: Lat 31.413725, Lng 74.364654
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+This station serves Youhanabad, widely recognized as one of the largest Christian-majority neighborhoods in Pakistan. The area is culturally distinct and features several prominent churches, most notably St. John's Catholic Church and Christ Church. The community is deeply tight-knit, with vibrant local bazaars, community centers, and missionary-run schools and clinics. Because of its massive residential density, this station sees extremely high footfall during morning and evening rush hours. The side streets are lined with local street food vendors, bakeries, and community-centric commerce.
+4. Nishtar Colony Station
+Station ID: 4
+Coordinates: Lat 31.423985, Lng 74.361833
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Nishtar Colony is a massive residential and commercial grid located directly on Ferozepur Road. The station provides access to a labyrinth of inner residential blocks housing middle and lower-middle-class families. The main road facing the station is lined with pharmacies, private medical clinics, electronics stores, and furniture showrooms. Nishtar Colony is a major node for local feeder vans and auto-rickshaws that transport passengers deeper into the eastern and western suburban blocks. The area is highly congested, acting as a microcosm of Lahore's rapid urbanization.
+5. Atari Saroba Station
+Station ID: 5
+Coordinates: Lat 31.433190, Lng 74.359239
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Atari Saroba is nestled between Nishtar Colony and Kamahan. Historically an independent village, it has been completely swallowed by Lahore's urban expansion. The immediate vicinity features a chaotic but vibrant mix of informal markets, wholesale fruit and vegetable vendors, and local hardware suppliers. Small-scale manufacturing units (such as shoe and garment stitching) are prevalent in the residential backstreets. The station area is prone to heavy traffic bottlenecks due to the intermingling of commercial loading vehicles, pedestrians, and public transit.
+6. Kamahan Station
+Station ID: 6
+Coordinates: Lat 31.442998, Lng 74.356499
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+This station is highly significant due to its proximity to the Kamahan Road junction, which acts as a vital artery connecting Ferozepur Road to the eastern, upscale suburbs, specifically the Defence Housing Authority (DHA) Phases 5 and 9, and the Lahore Ring Road. While the immediate Ferozepur road stretch is highly commercial—dominated by auto dealerships, ceramic/tile markets, and logistics hubs—the feeder routes from this station allow domestic workers and daily wage laborers to commute easily to the affluent DHA neighborhoods.
+7. Chungi Amar Sidhu Station
+Station ID: 7
+Coordinates: Lat 31.455211, Lng 74.353311
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Chungi Amar Sidhu is one of the most historically and commercially dense transit points on Ferozepur Road. The word "Chungi" refers to a historical tax/toll collection point. The area features a massive, sprawling local bazaar that sells everything from cheap apparel to electronics. It is located just south of the Lahore General Hospital, making this station a critical stop for patients, medical staff, and visitors. The area serves as a gateway to the Walton Cantonment limits, and the sheer volume of pedestrians, localized public transport, and commercial plazas makes it a hyper-active, bustling urban node day and night.
+8. Ghazi Chowk Station
+Station ID: 8
+Coordinates: Lat 31.464673, Lng 74.348633
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Ghazi Chowk is the intersection of Ferozepur Road and Ghazi Road. This intersection is strategically critical as Ghazi Road cuts directly east into the heart of the Lahore Cantonment and DHA Phase 1 and 2. Because of this, the station bridges a major socio-economic divide, serving both the working-class populations of Ferozepur Road and providing transit access for those employed in the military zones and affluent defense sectors. The intersection is surrounded by large retail stores, fast-food chains, banks, and commercial plazas.
+9. Qainchi Station
+Station ID: 9
+Coordinates: Lat 31.472712, Lng 74.342371
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+"Qainchi" translates to "scissors," a name derived from the sharp, scissor-like Y-junction where the historic Walton Road merges into Ferozepur Road. This station provides vital access to the Walton Cantonment, the Walton Railway Station, and the Bab-e-Pakistan national monument site. The intersection is infamous for its immense traffic volume. The immediate commercial area is dominated by heavy machinery markets, massive timber and steel stockyards, and large-scale wholesale traders. It is a defining geographic landmark for navigating southern Lahore.
+10. Ittefaq Hospital Station
+Station ID: 10
+Coordinates: Lat 31.482701, Lng 74.337583
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+This marks the transition to the elevated portion of the Green Line. The station directly overlooks Ittefaq Hospital (a major private medical facility established by the Sharif family) and the busy Model Town Link Road intersection. Model Town Link Road is one of Lahore's premier shopping districts, featuring massive commercial centers, brand outlets, hypermarkets (like Metro Cash & Carry nearby), and IT markets. This station serves thousands of shoppers, retail workers, and healthcare seekers daily.
+11. Naseerabad Station
+Station ID: 11
+Coordinates: Lat 31.487823, Lng 74.336423
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Naseerabad is a densely populated, middle-class residential area flanking the eastern edge of Ferozepur Road, opposite the Model Town boundaries. The elevated station looks down upon local markets specialized in auto-parts, plumbing, and sanitary wares. It acts as a secondary transit node for those living in the deeper blocks of Gulberg to the east and Model Town to the west.
+12. Model Town Station
+Station ID: 12
+Coordinates: Lat 31.494793, Lng 74.334468
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Serving the historic, affluent neighborhood of Model Town, which was established in 1921 as a cooperative housing society characterized by its unique radial grid and central circular park. The station provides access to the Model Town entry gates. The surrounding area features upscale bakeries, commercial banks, tree-lined boulevards, and elite schools. Commuters using this station often include students, domestic staff heading to the upscale bungalows, and professionals working in the local commercial blocks.
+13. Kalma Chowk Station
+Station ID: 13
+Coordinates: Lat 31.503537, Lng 74.331839
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Kalma Chowk is arguably the most famous and busiest intersection in Lahore. The elevated station sits above a massive flyover and underpass complex. To the east lies Main Boulevard Gulberg, Lahore's premier commercial and corporate artery (Central Business District, Liberty Market, M.M. Alam Road). To the west lies Garden Town and Barkat Market. The station is surrounded by skyscrapers, national bank headquarters, luxury hotels, and commercial plazas. It is the absolute commercial heart of modern Lahore, making this station a critical drop-off point for white-collar workers, executives, and university students.
+14. Qaddafi Stadium Station
+Station ID: 14
+Coordinates: Lat 31.511394, Lng 74.332306
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+This station serves the cultural and sporting epicenter of Pakistan. Immediately to the east is the Nishtar Park Sports Complex, which houses the Gaddafi Cricket Stadium (the headquarters of the Pakistan Cricket Board), the National Hockey Stadium, Punjab Athletics Stadium, and the Alhamra Open Air Theatre. The complex also hosts the Punjab Institute of Language, Art, and Culture (PILAC). The surrounding area is lush, heavily guarded during international matches, and features upscale dining (including the famous Food Street in the stadium).
+15. Canal / Muslim Town Station
+Station ID: 15
+Coordinates: Lat 31.520448, Lng 74.331575
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Positioned directly above the intersection of Ferozepur Road and the scenic Lahore Canal (Canal Bank Road). This station is incredibly important for students, as it is flanked by major educational institutions: Forman Christian (FC) College to the east, and the massive Quaid-e-Azam Campus of Punjab University just down the canal to the west. The station serves the residential area of Muslim Town and Shah Jamal. The views from this elevated station encompass the tree-canopied canal, making it one of the most picturesque stops on the line.
+16. Ichra Station
+Station ID: 16
+Coordinates: Lat 31.530932, Lng 74.327575
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Ichra is home to one of Lahore’s oldest, most famous, and most congested traditional bazaars. The elevated station drops passengers right into the heart of Ichra Bazaar, a labyrinth of narrow alleys famous for textiles, unstitched fabric, gold/jewelry, bridal wear, and household goods at wholesale prices. The foot traffic here is monumental. The area is a prime example of Lahore's traditional urban commerce, drawing shoppers from all over the province. It is highly densely populated, loud, and economically vibrant.
+17. Shama Station
+Station ID: 17
+Coordinates: Lat 31.538562, Lng 74.322301
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Named after the historic "Shama Cinema" that once existed nearby, this station sits in a highly residential and localized commercial zone. To the east lies the planned neighborhood of Shadman, featuring the Shadman Market and numerous private hospitals, while the west leads into the dense urban fabric of Rasool Park and the fringes of Mozang. The immediate vicinity features electronic appliance markets, furniture stores, and healthcare clinics.
+18. Qartaba Chowk Station
+Station ID: 18
+Coordinates: Lat 31.547528, Lng 74.316823
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Historically known as Mozang Chungi, Qartaba Chowk is a colossal 6-way intersection where Ferozepur Road ends, splitting into Lytton Road, Jail Road, Queens Road, Multan Road, and Bahawalpur Road. It is dominated by the massive Qartaba Complex. This transit node connects travelers to major city landmarks, including the Lahore Zoo, Bagh-e-Jinnah (Lawrence Gardens), and the WAPDA House (further down Queens Road). The area is a choke point of civic activity, heavily guarded by traffic wardens, and surrounded by dense historical residential sectors of Mozang.
+19. Janazgah Station
+Station ID: 19
+Coordinates: Lat 31.554070, Lng 74.312988
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Located on Lytton Road, this station is named after the historic Mozang Janazgah (a large, dedicated ground for funeral prayers). The surrounding area comprises tightly packed, historic residential blocks, including Riwaz Garden and the inner streets of Mozang. The architecture here shifts notably toward pre-partition and early post-partition colonial/local hybrid structures. It is a quieter (relatively speaking) stop catering primarily to local residents and small businesses.
+20. MAO College Station
+Station ID: 20
+Coordinates: Lat 31.561593, Lng 74.306737
+Type: Elevated
+Interchange: True
+Connects To: Orange Line (Anarkali Station)
+Surrounding Area & Context:
+A crucially important transit hub, serving as the official interchange between the Green Line (North-South) and the Orange Line Metro Train (East-West). The station stands over Lower Mall, adjacent to the historic Muhammadan Anglo-Oriental (MAO) College. The surrounding area is an academic and cultural nexus, sitting on the edge of Old Anarkali Bazaar, near the Punjab University Old Campus, the National College of Arts (NCA), and the Lahore Museum. This station is perpetually flooded with university students, academics, and tourists navigating between the two major transit lines.
+21. Civil Secretariat Station
+Station ID: 21
+Coordinates: Lat 31.567707, Lng 74.305609
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Located on Lower Mall, this surface-level station serves the administrative epicenter of the Punjab Government. It is situated directly adjacent to the sprawling Punjab Civil Secretariat, which houses the offices of the Chief Secretary, various provincial ministries, and the Inspector General (IG) of Police. The area is heavily secured and is characterized by grand colonial-era administrative buildings, massive banyan trees, and bureaucratic activity. It also provides secondary access to the lower end of the famous Anarkali Bazaar and the tomb of Qutb-ud-din Aibak.
+22. Katchery Station
+Station ID: 22
+Coordinates: Lat 31.572765, Lng 74.306422
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+"Katchery" translates to "Courts." This station serves Lahore's central legal and judicial district. Immediately surrounding the station are the District Sessions Courts (Zila Katchery), Aiwan-e-Adal, the Lahore High Court (a short distance away), and the Government College University (GCU). The streets are heavily populated with lawyers in black suits, legal clerks, petition writers, police transport, and citizens seeking legal recourse. The area is steeped in colonial-era gothic and indo-saracenic architecture, acting as the bridge between modern Lahore and the Walled City.
+23. Bhaati Chowk Station
+Station ID: 23
+Coordinates: Lat 31.581561, Lng 74.308169
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Bhaati Chowk is the gateway to "Androon Lahore" (The Walled City). Located near the historic Bhaati Gate, this station is immersed in immense cultural and religious significance. Just steps away is Data Darbar, the shrine of Ali Hujwiri (Data Ganj Bakhsh), the largest and most revered Sufi shrine in South Asia, drawing millions of pilgrims annually. The station area is a chaotic, vibrant mix of flower vendors, street food stalls, charity kitchens (langars), and narrow alleys leading into the ancient heart of the city where renowned musicians, poets, and writers once lived.
+24. Azadi Chowk Station
+Station ID: 24
+Coordinates: Lat 31.590299, Lng 74.305655
+Type: Elevated
+Interchange: False
+Surrounding Area & Context:
+Azadi Chowk (Independence Square) is the most historically and nationalistically significant station on the line. The elevated station provides breathtaking panoramic views of Pakistan's greatest landmarks: the Minar-e-Pakistan (standing in Greater Iqbal Park), the majestic Lahore Fort (Shahi Qila), the iconic Badshahi Mosque, and the Samadhi of Ranjit Singh. This station is a major tourist destination. The massive circular interchange below manages the convergence of Ravi Road, Circular Road, and traffic heading out of the city.
+25. Timber Market Station
+Station ID: 25
+Coordinates: Lat 31.595914, Lng 74.302195
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Moving north onto Ravi Road, the aesthetic shifts abruptly from historical monuments to heavy industrial commerce. Timber Market is one of the largest wood and lumber trading zones in Pakistan. The air here often smells of sawdust, and the streets are lined with warehouses, sawmills, and massive stacks of local and imported wood. Heavy cargo trucks and tractor-trolleys dominate the road, making this a raw, highly industrious, and utilitarian segment of the city's transit corridor.
+26. Niazi Chowk Station
+Station ID: 26
+Coordinates: Lat 31.602568, Lng 74.296542
+Type: Surface
+Interchange: False
+Surrounding Area & Context:
+Niazi Chowk is the primary exit node of central Lahore before crossing the river. It sits at the nexus of the Lahore Ring Road (Northern Loop) and the road leading to the Babu Sabu toll plaza and M-2 Motorway. A defining feature of this area is Lari Adda (the General Bus Stand), which is the largest intercity bus terminal in Lahore. This station caters to tens of thousands of intercity travelers transferring from regional buses to the city's internal transit network. The area is highly congested with buses, minivans, and regional transport infrastructure.
+27. Shahdara Station
+Station ID: 27
+Coordinates: Lat 31.615368, Lng 74.290548
+Type: Surface
+Interchange: False
+Notes: Northern Terminal
+Surrounding Area & Context:
+Shahdara is the northern terminus of the Green Line, located across the Ravi River on the historical Grand Trunk (GT) Road. This area historically served as the northern gateway to the Mughal Empire's capital. It is home to magnificent Mughal monuments, including the Tomb of Emperor Jahangir, the Tomb of Empress Nur Jahan, and the Akbari Sarai. Today, Shahdara is a dense, heavily industrialized town that bridges Lahore with the neighboring industrial hubs of Gujranwala and Sheikhupura. The station features massive terminal infrastructure and serves as the ultimate drop-off for millions of commuters traveling from the northern districts into Lahore for daily work.
